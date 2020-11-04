@@ -22,7 +22,6 @@ function App() {
       <Contact />
       <Footer />
       <header className="App-header">
-      
       </header>
       </Router>
     </div>

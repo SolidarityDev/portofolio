@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react'
-import "/Users/supermac/Desktop/portofolio-react/node_modules/video-react/dist/video-react.css";
 import { Player } from 'video-react';
 import video1 from "/Users/supermac/Desktop/portofolio-react/src/videos/LOTR .mp4";
 import photo1 from "/Users/supermac/Desktop/portofolio-react/src/images/project1.png"

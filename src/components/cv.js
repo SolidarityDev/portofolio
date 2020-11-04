@@ -17,7 +17,7 @@ const Cv = () => {
                 <img className="logo-js" src={JSLOGO} alt="js-logo"></img><br></br>
                 <img className="logo-react" src={REACTLOGO} alt="react-logo"></img>
                 <img className="logo-node" src={NODELOGO} alt="node-logo"></img>
-                <u><span className="text" onClick={handleClick}>MY RESUME</span></u><br></br>
+                <u><span className="text">MY RESUME</span></u><br></br>
                 <div className="things1">
                 <div className="content1">
                     <div className="arrow1">
