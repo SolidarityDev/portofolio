@@ -1,11 +1,11 @@
 
 import React, { Component } from 'react'
 import QierPlayer from 'qier-player';
-import video1 from "/Users/supermac/Desktop/portofolio-react/src/videos/LOTR .mp4";
-import video2 from "/Users/supermac/Desktop/portofolio-react/src/videos/Rest-Space.mp4";
-import video3 from "/Users/supermac/Desktop/portofolio-react/src/videos/Shopping-Cart .mp4";
-import video4 from "/Users/supermac/Desktop/portofolio-react/src/videos/Me.mp4";
-import video5 from "/Users/supermac/Desktop/portofolio-react/src/videos/NETFLEX.mp4";
+import video1 from "../videos/LOTR .mp4";
+import video2 from "../videos/Rest-Space.mp4";
+import video3 from "../videos/Shopping-Cart .mp4";
+import video4 from "../videos/Me.mp4";
+import video5 from "../videos/NETFLEX.mp4";
 
 class Projects extends Component {
  

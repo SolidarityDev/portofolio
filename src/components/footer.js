@@ -1,8 +1,8 @@
 import React from 'react'
-import codelogo from '/Users/supermac/Desktop/portofolio-react/src/icons/codepen.svg';
-import gitlogo from '/Users/supermac/Desktop/portofolio-react/src/icons/github.svg';
-import linkdlogo from '/Users/supermac/Desktop/portofolio-react/src/icons/linkdin.svg';
-import rocketlogo from '/Users/supermac/Desktop/portofolio-react/src/icons/rocket.svg';
+import codelogo from '../icons/codepen.svg';
+import gitlogo from '../icons/github.svg';
+import linkdlogo from '../icons/linkdin.svg';
+import rocketlogo from '../icons/rocket.svg';
 
 const Footer = () => {
     const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
