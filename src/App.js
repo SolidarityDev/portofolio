@@ -1,4 +1,3 @@
-
 import './App.scss';
 import Header from "./components/header.js";
 import Aboutme from "./components/aboutme.js";
