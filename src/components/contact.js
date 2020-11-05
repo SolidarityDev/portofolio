@@ -1,5 +1,5 @@
 import React from 'react'
-import Logomail from '/Users/supermac/Desktop/portofolio-react/src/icons/logomail.svg';
+import Logomail from '../icons/logomail.svg';
 
 const Contact = () => {
     return (
