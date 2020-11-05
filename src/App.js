@@ -1,10 +1,10 @@
-import '/Users/supermac/Desktop/portofolio-react/src/App.scss';
-import Header from "/Users/supermac/Desktop/portofolio-react/src/components/header.js";
-import Aboutme from "/Users/supermac/Desktop/portofolio-react/src/components/aboutme.js";
-import Cv from "/Users/supermac/Desktop/portofolio-react/src/components/cv.js";
-import Projects from "/Users/supermac/Desktop/portofolio-react/src/components/projects.js";
-import Contact from "/Users/supermac/Desktop/portofolio-react/src/components/contact.js";
-import Footer from "/Users/supermac/Desktop/portofolio-react/src/components/footer.js";
+import './App.scss';
+import Header from "./components/header.js";
+import Aboutme from "./components/aboutme.js";
+import Cv from "./components/cv.js";
+import Projects from "./components/projects.js";
+import Contact from "./components/contact.js";
+import Footer from "./components/footer.js";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 function App() {
