@@ -7,7 +7,6 @@ import Projects from "./components/projects.js";
 import Contact from "./components/contact.js";
 import Footer from "./components/footer.js";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
-import "/Users/supermac/Desktop/portofolio-react/node_modules/video-react/dist/video-react.css"
 
 function App() {
   return (
