@@ -1,5 +1,5 @@
 import React from 'react'
-import ImageShot from "/Users/supermac/Desktop/portofolio-react/src/images/imageshot.png"
+import ImageShot from "../images/imageshot.png"
 
 const Aboutme = () => {
     return (

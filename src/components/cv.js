@@ -1,10 +1,10 @@
 import React from 'react'
-import Logocloud from '/Users/supermac/Desktop/portofolio-react/src/icons/logocloud.svg';
-import HTMLLOGO from "/Users/supermac/Desktop/portofolio-react/src/icons/html-5.svg"
-import CSSLOGO from "/Users/supermac/Desktop/portofolio-react/src/icons/css.svg"
-import JSLOGO from "/Users/supermac/Desktop/portofolio-react/src/icons/javascript.svg"
-import REACTLOGO from "/Users/supermac/Desktop/portofolio-react/src/icons/reactjs.svg"
-import NODELOGO from "/Users/supermac/Desktop/portofolio-react/src/icons/nodejs.svg"
+import Logocloud from '../icons/logocloud.svg';
+import HTMLLOGO from "../icons/html-5.svg"
+import CSSLOGO from "../icons/css.svg"
+import JSLOGO from "../icons/javascript.svg"
+import REACTLOGO from "../icons/reactjs.svg"
+import NODELOGO from "../icons/nodejs.svg"
 
 
 const Cv = () => {

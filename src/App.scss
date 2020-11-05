@@ -39,6 +39,7 @@ h3{
   left:5%;
   width:70%;
 }
+
 .divider{
   position: relative;
   display: block;
@@ -218,12 +219,6 @@ span{
   background-color: #00b7c7;
   left:0%;
 }
-#disposition:nth-child(3){
-  width:310px;
-}
-#disposition:nth-child(7){
-  width:450px;
-}
 
 .player-title{
   font-size: 2.5em;
@@ -231,13 +226,10 @@ span{
 }
 .player-wrapper{
   justify-content: space-around;
-  width:500px;
-  flex-wrap: wrap;
-  margin:1%;
 }
 #all-players-wrappers{
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 #holy{
@@ -255,7 +247,7 @@ ul {
   padding-inline-start: 40px;
 }
 .used-items{
-  display: inline-block;
+    display: inline-block;
     padding: 7px 7px 5px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -282,8 +274,6 @@ ul {
 }
 #disposition{
   width:400px;
-  display:flex;
-  display : inline-block;
   margin:3%;
   font-size: 3em;
   font-family: 'Amatic SC', cursive;

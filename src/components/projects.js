@@ -1,16 +1,11 @@
 
 import React, { Component } from 'react'
-import { Player } from 'video-react';
-import video1 from "/Users/supermac/Desktop/portofolio-react/src/videos/LOTR .mp4";
-import photo1 from "/Users/supermac/Desktop/portofolio-react/src/images/project1.png"
-import video2 from "/Users/supermac/Desktop/portofolio-react/src/videos/Rest-Space.mp4";
-import photo2 from "/Users/supermac/Desktop/portofolio-react/src/images/project2.png"
-import video3 from "/Users/supermac/Desktop/portofolio-react/src/videos/Shopping-Cart .mp4";
-import photo3 from "/Users/supermac/Desktop/portofolio-react/src/images/project3b.png"
-import video4 from "/Users/supermac/Desktop/portofolio-react/src/videos/Me.mp4";
-import photo4 from "/Users/supermac/Desktop/portofolio-react/src/images/project4.png"
-import video5 from "/Users/supermac/Desktop/portofolio-react/src/videos/NETFLEX.mp4";
-import photo5 from "/Users/supermac/Desktop/portofolio-react/src/images/project5.png"
+import QierPlayer from 'qier-player';
+import video1 from "../videos/LOTR .mp4";
+import video2 from "../videos/Rest-Space.mp4";
+import video3 from "../videos/Shopping-Cart .mp4";
+import video4 from "../videos/Me.mp4";
+import video5 from "../videos/NETFLEX.mp4";
 
 class Projects extends Component {
  
@@ -25,10 +20,7 @@ class Projects extends Component {
         <div id="all-players-wrappers">
         <div className='player-wrapper'>
         <div className="player-title">Lords Of The Rings</div>
-           <Player
-      poster={photo1} id="holy"
-      src={video1}  width="600px" height="300px"  controls="controls"
-    />
+        <QierPlayer srcOrigin={video1} />
      <div className="used">
         <ul className="used-items">
            <li className="used-item">HTML</li>
@@ -40,10 +32,7 @@ class Projects extends Component {
 
         <div className='player-wrapper'>
         <div className="player-title">Rest-Space</div>
-           <Player
-      poster={photo2} id="holy"
-      src={video2} width="600px" height="300px" controls="controls"
-    />
+        <QierPlayer srcOrigin={video2} />
     <div className="used">
         <ul className="used-items">
            <li className="used-item">HTML</li>
@@ -53,10 +42,7 @@ class Projects extends Component {
         </div>
         <div className='player-wrapper'>
         <div className="player-title">Shopping-Cart</div>
-           <Player
-      poster={photo3} id="holy"
-      src={video3} width="600px" height="300px" controls="controls"
-    />
+        <QierPlayer srcOrigin={video3} />
     <div className="used">
         <ul className="used-items">
            <li className="used-item">HTML</li>
@@ -68,10 +54,7 @@ class Projects extends Component {
         </div>
         <div className='player-wrapper'>
         <div className="player-title">Me</div>
-           <Player
-      poster={photo4} id="holy"
-      src={video4} width="600px" height="300px" controls="controls"
-    />
+            <QierPlayer srcOrigin={video4} />
     <div className="used">
         <ul className="used-items">
            <li className="used-item">HTML</li>
@@ -82,10 +65,7 @@ class Projects extends Component {
         </div>
         <div className='player-wrapper'>
         <div className="player-title">Netflex</div>
-           <Player
-      poster={photo5} id="holy"
-      src={video5} width="600px" height="300px" controls="controls"
-    />
+        <QierPlayer srcOrigin={video5} />
     <div className="used">
         <ul className="used-items">
            <li className="used-item">HTML</li>

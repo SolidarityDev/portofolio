@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
-import BackGround from '/Users/supermac/Desktop/portofolio-react/src/images/portofoliowp2.jpg'
+import BackGround from '../images/portofoliowp2.jpg'
 
 
 const Header = () => {
