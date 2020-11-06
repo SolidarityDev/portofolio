@@ -9,7 +9,7 @@ import linkdlogo from '../icons/linkme.svg';
 
 
 const Header = () => {
-  const scrollDown = () => window.scrollTo({ top: 1200, behavior: "smooth" });
+  const scrollDown = () => window.scrollTo({ top: 900, behavior: "smooth" });
     return (
         <div id="top-header">
           <div className="bg_image1"
