@@ -42,9 +42,9 @@ const Cv = () => {
 
             <img className="logo-html" src={HTMLLOGO} alt="html-logo"></img>
                 <img className="logo-css" src={CSSLOGO} alt="css-logo"></img>
-                <img className="logo-js" src={JSLOGO} alt="js-logo"></img><br></br>
-                <img className="logo-react" src={REACTLOGO} alt="react-logo"></img>
+                <img className="logo-js" src={JSLOGO} alt="js-logo"></img>
                 <img className="logo-node" src={NODELOGO} alt="node-logo"></img>
+                <img className="logo-react" src={REACTLOGO} alt="react-logo"></img>
     </div>
     )
 }

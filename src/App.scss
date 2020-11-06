@@ -19,10 +19,26 @@ body{
   font-family: 'Amatic SC', cursive;
   color:white;
 }
+#top-section img{
+  position:relative;
+  width:23%;
+  display:flex; 
+  left:320%;
+}
+#top-section li{
+  display: flex;
+  display: inline-block;
+  justify-content: space-around;
+}
+
+#top-section img:hover,
+#top-section img:focus {
+  filter:  invert(44%) sepia(91%) saturate(354%) hue-rotate(323deg) brightness(83%) contrast(90%);
+}
 h1{
   position: relative;
   top:6%;
-  left: 30%;
+  left: 40%;
   font-size: 6em;
   font-family: 'Amatic SC', cursive;
 }
@@ -146,8 +162,8 @@ overflow: hidden;
 .gif-image{
   position:relative;
   width:100%;
-  left:5%;
-  bottom:-5%;
+  left:25%;
+  bottom:-15%;
 }
 .logo-resume{
   width:80%;
@@ -163,7 +179,7 @@ overflow: hidden;
 }
 .block-btn:hover,
 .block-btn:focus {
-  filter:  invert(36%) sepia(22%) saturate(7171%) hue-rotate(168deg) brightness(97%) contrast(99%);
+  filter: invert(44%) sepia(91%) saturate(354%) hue-rotate(323deg) brightness(83%) contrast(90%);
 }
 
 .logo-html{
@@ -188,14 +204,14 @@ overflow: hidden;
   top:10%;
   position: relative;
   width:6%;
-  right:26%;
+  right:13%;
   margin:2%;
 }
 .logo-node{
   top:10%;
   position: relative;
   width:8%;
-  right:24%;
+  right:15%;
 }
 .cloud-logo:hover > img{
   color:blue;
@@ -546,6 +562,17 @@ li{
     font-family: 'Amatic SC', cursive;
     color:white;
   }
+  #top-section img{
+    position:relative;
+    width:23%;
+    display:flex; 
+    left:150%;
+  }
+  #top-section li{
+    display: flex;
+    display: inline-block;
+    justify-content: space-around;
+  }
   h1{
     position: relative;
     top:6%;
@@ -670,8 +697,8 @@ li{
   }
   .gif-image{
     position:relative;
-    width:100%;
-    left:0%;
+    width:130%;
+    left:15%;
     bottom:-15%;
   }
   .logo-resume{
@@ -708,14 +735,14 @@ li{
     top:10%;
     position: relative;
     width:6%;
-    right:26%;
+    right:13%;
     margin:2%;
   }
   .logo-node{
     top:10%;
     position: relative;
     width:8%;
-    right:24%;
+    right:15%;
   }
   .cloud-logo:hover > img{
     color:blue;
@@ -1222,14 +1249,14 @@ li{
     top:10%;
     position: relative;
     width:6%;
-    right:26%;
+    right:13%;
     margin:2%;
   }
   .logo-node{
     top:10%;
     position: relative;
     width:8%;
-    right:24%;
+    right:15%;
   }
   .cloud-logo:hover > img{
     color:blue;
@@ -1744,15 +1771,15 @@ li{
   .logo-react{
     top:10%;
     position: relative;
-    width:8%;
-    right:26%;
+    width:6%;
+    right:13%;
     margin:2%;
   }
   .logo-node{
     top:10%;
     position: relative;
-    width:12%;
-    right:24%;
+    width:8%;
+    right:15%;
   }
   .cloud-logo:hover > img{
     color:blue;
