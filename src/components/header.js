@@ -11,6 +11,7 @@ import linkdlogo from '../icons/linkme.svg';
 const Header = () => {
   const scrollDown = () => window.scrollTo({ top: 900, behavior: "smooth" });
     return (
+      <div>
         <div id="top-header">
           <div className="bg_image1"
         style={{
@@ -27,16 +28,36 @@ const Header = () => {
                 <li className="nav-item nav-link"> <a href="https://solidaritydev.github.io/resume/CV.R.pdf" add target="_blank" rel="noopener noreferrer">C.V</a></li>
                 </ul>
             </div>
-
-            <h1>Aribi Rachid</h1>
+            <div id="top-section-mobile">
+            <div class="container">
+                <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1>Aribi Rachid</h1> 
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul id="list-inline social-buttons animated fadeIn">
+                      
+                      <li><a className="codepen" href="https://codepen.io/raffa-rin" target="_blank" rel="noopener noreferrer"><img src={codelogo} alt="codepen-link"></img></a></li>
+                     
+                      <li><a className="github" href="https://github.com/SolidarityDev" target="_blank" rel="noopener noreferrer"><img src={gitlogo}  alt="github-link"></img></a></li>
+                      
+                      <li><a className="linkedin" href="https://www.linkedin.com/in/rachid-aribi/" target="_blank" rel="noopener noreferrer"><img src={linkdlogo} alt="linkdin-link"></img></a></li>
+                  </ul>
+            </div>
+            </div>
+            </div>
+            </div>
             <div className="arrowd" onClick={scrollDown}>
                 <span></span>
                 <span></span>
                 <span></span>
-            
-  
 </div>
 </div>
+</div>
+
+  <div id="top-section-2">
        <div className="bg_image"
         style={{
           backgroundImage: 'url('+BackGround+')',
@@ -74,13 +95,13 @@ const Header = () => {
             
             </div>
             </div>
-            </div>
             <div className="arrowd" onClick={scrollDown}>
                 <span></span>
                 <span></span>
                 <span></span>
             
-  
+                </div>
+            </div>
 </div>
           </div>
     )
