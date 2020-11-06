@@ -29,7 +29,8 @@ const Cv = () => {
                     </div>
                 </div> 
             </div> 
-                <a className="block-btn" href="https://solidaritydev.github.io/resume/CV.R.pdf"  add target="_blank" rel="noopener noreferrer"> <img src={Logocloud} className="cloud-logo" alt="cv-logo" /> </a>
+                <a className="block-btn" href="https://solidaritydev.github.io/resume/CV.R.pdf"  add target="_blank" rel="noopener noreferrer">
+                     <img src={Logocloud} className="cloud-logo" alt="cv-logo" /> </a>
                 </div>  
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 <img className="gif-image" loading="lazy" src="https://cms.momkai.com/dynamic/illustrations/momkai_home_sittingonpencil_large.gif" alt="gif-cv"></img>
@@ -38,13 +39,15 @@ const Cv = () => {
         </div>
     </div>
     </div>
-
-
-            <img className="logo-html" src={HTMLLOGO} alt="html-logo"></img>
+        <section>
+            <div id="languages-logo">
+                <img className="logo-html" src={HTMLLOGO} alt="html-logo"></img>
                 <img className="logo-css" src={CSSLOGO} alt="css-logo"></img>
                 <img className="logo-js" src={JSLOGO} alt="js-logo"></img>
                 <img className="logo-node" src={NODELOGO} alt="node-logo"></img>
                 <img className="logo-react" src={REACTLOGO} alt="react-logo"></img>
+            </div>
+        </section>      
     </div>
     )
 }
