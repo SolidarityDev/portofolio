@@ -64,7 +64,7 @@ h3{
     position: relative;
     margin-top:4%;
     justify-content: center;
-    right:13%;
+    right:5%;
 }
 
 .section-heading{
@@ -449,19 +449,19 @@ li{
 .arrow .point {
 	position: absolute;
 	left: 40px;
-	top: 315px;
+	top: 305px;
 }
 
 .arrow .point:before, .arrow .point:after {
 	border: 1px solid #BE5F4B;
-	height: 20px;
+	height: 23px;
 	content: "";
 	position: absolute;
 }
 
 .arrow .point:before {
-	top: -11px;
-	left: -11px;
+	top: -10px;
+	left: -9px;
 	transform:rotate(-74deg);
 	-webkit-transform:rotate(-74deg);
   -moz-transform:rotate(-74deg);
@@ -469,7 +469,7 @@ li{
 }
 
 .arrow .point:after {
-  top: -20px;
+  top: -18px;
 	left: 5px;
 	transform:rotate(12deg);
 	-webkit-transform: rotate(12deg);
@@ -581,7 +581,7 @@ li{
       position: relative;
       margin-top:4%;
       justify-content: center;
-      right:13%;
+      right:5%;
   }
   
   .section-heading{
@@ -961,19 +961,19 @@ li{
   .arrow .point {
     position: absolute;
     left: 40px;
-    top: 315px;
+    top: 305px;
   }
   
   .arrow .point:before, .arrow .point:after {
     border: 1px solid #BE5F4B;
-    height: 20px;
+    height: 23px;
     content: "";
     position: absolute;
   }
   
   .arrow .point:before {
-    top: -11px;
-    left: -11px;
+    top: -10px;
+    left: -9px;
     transform:rotate(-74deg);
     -webkit-transform:rotate(-74deg);
     -moz-transform:rotate(-74deg);
@@ -981,7 +981,7 @@ li{
   }
   
   .arrow .point:after {
-    top: -20px;
+    top: -18px;
     left: 5px;
     transform:rotate(12deg);
     -webkit-transform: rotate(12deg);
@@ -1092,7 +1092,7 @@ li{
       position: relative;
       margin-top:4%;
       justify-content: center;
-      right:13%;
+      right:5%;
   }
   
   .section-heading{
@@ -1471,19 +1471,19 @@ li{
   .arrow .point {
     position: absolute;
     left: 40px;
-    top: 315px;
+    top: 305px;
   }
   
   .arrow .point:before, .arrow .point:after {
     border: 1px solid #BE5F4B;
-    height: 20px;
+    height: 23px;
     content: "";
     position: absolute;
   }
   
   .arrow .point:before {
-    top: -11px;
-    left: -11px;
+    top: -10px;
+    left: -9px;
     transform:rotate(-74deg);
     -webkit-transform:rotate(-74deg);
     -moz-transform:rotate(-74deg);
@@ -1491,14 +1491,13 @@ li{
   }
   
   .arrow .point:after {
-    top: -20px;
+    top: -18px;
     left: 5px;
     transform:rotate(12deg);
     -webkit-transform: rotate(12deg);
     -moz-transform:rotate(12deg);
     -ms-transform: rotate(12deg);
   }
-  
   //fleches directionnels du HEADER
   .arrowd{
     position: absolute;
