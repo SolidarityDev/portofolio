@@ -2,7 +2,9 @@
 .App {
   text-align: center;
 }
-
+body{
+  overflow: inherit;
+}
 .navbar-nav{
   position: relative;
   top:5%;
@@ -41,8 +43,14 @@ h3{
 }
 .bg_image{
   overflow: hidden;
+  width:100%;
 }
-
+.bg_image1{
+  display: none;
+}
+#top-header{
+  overflow: inherit;
+}
 .divider{
   position: relative;
   display: block;
@@ -71,12 +79,12 @@ h3{
   width:50%;
   left:5%;
   font-family: 'Amatic SC', cursive;
-  font-size: 4em;
+  font-size: 4.5em;
 }
 
 .section-subheading{
   width:40%;
-  left:5%;
+  left:8%;
   font-family: 'Amatic SC', cursive;
   font-size: 2em;
 }
@@ -89,14 +97,16 @@ h3{
 .img-wrapper{
   border-radius: 50%;
   position:relative;
-  left:40%;
+  left:20%;
+  width: 80%;
+  top:20%;
 }
 
 .text-wrapper{
   font-size: 1.4em;
   font-family: 'Itim', cursive;
   font-style: italic;
-  width:110%;
+  width:130%;
 }
 .section-heading{
   color:black;
@@ -130,11 +140,13 @@ position: relative;
 margin-top:10%;
 background-color: #D5D5D5;
 margin-bottom:5%;
+overflow: hidden;
+
 }
 .gif-image{
   position:relative;
   width:100%;
-  left:35%;
+  left:5%;
   bottom:-5%;
 }
 .logo-resume{
@@ -558,8 +570,14 @@ li{
   }
   .bg_image{
     overflow: hidden;
+    width:100%;
   }
-  
+  .bg_image1{
+    display: none;
+  }
+  #top-header{
+    overflow: inherit;
+  }
   .divider{
     position: relative;
     display: block;
@@ -648,6 +666,7 @@ li{
   margin-top:10%;
   background-color: #D5D5D5;
   margin-bottom:5%;
+  overflow: hidden;
   }
   .gif-image{
     position:relative;
@@ -750,10 +769,7 @@ li{
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  #holy{
-    width:100%;
-    height:1000px
-  }
+
   
   ul {
     display: block;
@@ -1069,8 +1085,14 @@ li{
   }
   .bg_image{
     overflow: hidden;
+    width:100%;
   }
-  
+  .bg_image1{
+    display: none;
+  }
+  #top-header{
+    overflow: inherit;
+  }
   .divider{
     position: relative;
     display: block;
@@ -1124,7 +1146,7 @@ li{
     font-size: 1.4em;
     font-family: 'Itim', cursive;
     font-style: italic;
-    width:160%;
+    width:100%;
   }
   .section-heading{
     color:black;
@@ -1158,6 +1180,7 @@ li{
   margin-top:10%;
   background-color: #D5D5D5;
   margin-bottom:5%;
+  overflow: hidden;
   }
   .gif-image{
     position:relative;
@@ -1537,4 +1560,529 @@ li{
 
 }
 
-@media screen and (max-width: 600px) {}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .App {
+    text-align: center;
+  }
+  
+  .navbar-nav{
+    position: relative;
+    top:5%;
+  }
+  .nav-item {
+    font-size: 1.5em;
+    display: inline
+  }
+  .nav-item a{
+    display: flex;
+    justify-content :space-between;
+    font-family: 'Amatic SC', cursive;
+    color:white;
+    
+  }
+  h1{
+    position: relative;
+    top:10%;
+    left: 20%;
+    font-size: 2.3em;
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  h2{
+    font-size: 1em;
+    position: relative;
+    text-align: start;
+    left:5%;
+    
+  }
+  h3{
+    font-size: 1.4em;
+    position: relative;
+    text-align: start;
+    left:5%;
+    width:70%;
+  }
+  .bg_image{
+    display:none
+  }
+  .bg_image1{
+    width:100%;
+  }
+  #top-header{
+    overflow: inherit;
+  }
+  .divider{
+    position: relative;
+    display: block;
+    margin: 30px;
+    width: 100px;
+    height: 2px;
+    background-color: #00b7c7;
+    left:15%;
+  }
+  
+  .section-aboutme{
+    position: relative;
+    background-color: white;
+    margin-top: 5%;
+  }
+  
+  #about-wrapper{
+      display: flex;
+      position: relative;
+      margin-top:4%;
+      justify-content: center;
+      right:5%;
+  }
+  
+  .section-heading{
+    width:50%;
+    left:5%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+  }
+  
+  .section-subheading{
+    width:40%;
+    left:8%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1em;
+  }
+  
+  #divided-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .img-wrapper{
+    border-radius: 50%;
+    position:relative;
+    left:20%;
+    width: 50%;
+    top:20%;
+  }
+  
+  .text-wrapper{
+    font-size: 0.9em;
+    font-family: 'Itim', cursive;
+    font-style: italic;
+    width:90%;
+  }
+  .section-heading{
+    color:black;
+  }
+  .projects-section{
+    margin-top: 5%;
+  }
+  
+  #yy{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.0em;
+    position: relative;
+    bottom:60px;
+    left:450%;
+    
+  }
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  /* Curiculum Vitae section*/
+  .cv-section{
+  position: relative;
+  margin-top:10%;
+  background-color: #D5D5D5;
+  margin-bottom:5%;
+  overflow: hidden;
+  }
+  .gif-image{
+    position:relative;
+    width:50%;
+    left:5%;
+    bottom:-5%;
+  }
+  .logo-resume{
+    display:none;
+  }
+  .cloud-logo{
+    width:15%;
+    position: relative;
+    right:15%;
+    bottom: 10%;
+  }
+  .block-btn:hover,
+  .block-btn:focus {
+    filter:  invert(36%) sepia(22%) saturate(7171%) hue-rotate(168deg) brightness(97%) contrast(99%);
+  }
+  
+  .logo-html{
+    position: relative;
+    top:10%;
+    width:8%;
+    right:30%;
+  }
+  .logo-css{
+    top:10%;
+    position: relative;
+    width:8%;
+    right:25%;
+  }
+  .logo-js{
+    top:10%;
+    position: relative;
+    width:8%;
+    right:20%;
+  }
+  .logo-react{
+    top:10%;
+    position: relative;
+    width:8%;
+    right:26%;
+    margin:2%;
+  }
+  .logo-node{
+    top:10%;
+    position: relative;
+    width:12%;
+    right:24%;
+  }
+  .cloud-logo:hover > img{
+    color:blue;
+  }
+  span{
+    cursor: pointer;
+  }
+  .text{
+    font-size: 2.5em;
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    color:black;
+    left:10%;
+  }
+  //Section Projects
+  #projects-section-title{
+    font-size: 1.6em;
+    position: relative;
+    text-align: start;
+    margin-top: 20%;
+  }
+  .projects-section{
+    margin-top :5%;
+  }
+
+  #mini-section{
+    margin:5%;
+  }
+  .divider2{
+    position: relative;
+    display: block;
+    margin: 30px;
+    width: 100px;
+    height: 2px;
+    background-color: #00b7c7;
+    left:0%;
+  }
+  
+  .player-title{
+    font-size: 1.4em;
+    font-family: 'Amatic SC', cursive;
+  }
+  .player-wrapper{
+    justify-content: space-around;
+    margin-bottom:5%;
+    width:auto;
+    overflow: inherit;
+  }
+  #all-players-wrappers{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:auto;
+    overflow: hidden;
+  }
+  #holy{
+    width:100%;
+    height:1000px
+  }
+  
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+  .used-items{
+      display: inline-block;
+      padding: 7px 7px 5px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+      color: #777;
+      background: #333;
+      border-radius: 3px;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: .5px;
+  }
+  .used-item{
+    display: inline-block;
+      padding: 7px 7px 5px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+      color: white;
+      background: #333;
+      border-radius: 3px;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: .5px;
+  }
+  #disposition{
+    width:400px;
+    margin:3%;
+    font-size: 3em;
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  #languages{
+    font-family: none;
+    font-size: 30px;
+    color:white;
+    background-color: black;
+    font-family: 'Amatic SC', cursive;
+  }
+  #title-contact{
+    font-size: 3em;
+    font-family: 'Amatic SC', cursive;
+  }
+  .mail-logo{
+    width:10%;
+    position: relative;
+    margin-bottom: 2%;
+    
+  }
+  
+  .contact-section{
+    text-align: center;
+    position: relative;
+    margin-top:10%;
+    background-color: #F0F0F0;
+  }
+  #contact-sentence{
+    font-size: 1em;
+    margin-bottom: 3%;
+    font-family: 'Amatic SC', cursive;
+  }
+  #email-button{
+      color: #000;
+      padding: 5px 10px;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+      font-size: 20px;
+      /* border-radius: 30px; */
+      border: 2px solid #000;
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+      position:relative;
+      top:0px;
+  }
+  #email-button:hover{
+   background-color:#FCBD24;
+   color:white;
+  }
+  #footer-section{
+    margin-top:10%;
+  }
+  #footer-section li img{
+    width:20%;
+    margin-right:30%;
+  }
+  #footer-section li{
+    display: flex;
+    display: inline-block;
+  }
+  li{
+    list-style: none;
+  }
+  
+  #rocket{
+    margin-top:5%;
+    width:10%;
+    animation: scrollTop 0.5s alternate ease infinite;
+  }
+  
+  
+  //Fleche de la section CV
+  
+  /* Arrow */
+  .arrow1 {
+    position: relative;
+    margin: 0 auto;
+    width: 10px;
+    right:40%;
+    top:-15%;
+  }
+  
+  .arrow1 .curve1 {
+    border: 2px solid #BE5F4B;
+    border-color: transparent transparent transparent #BE5F4B;
+    height: 80px;
+    width: 1200px;
+    border-radius: 230px 0 0 150px;
+  }
+  
+  .arrow1 .point1 {
+    position: absolute;
+    left: 20px;
+    top: 80px;
+  }
+  
+  .arrow1 .point1:before, .arrow1 .point1:after {
+    border: 1px solid #BE5F4B;
+    height: 25px;
+    content: "";
+    position: absolute;
+  }
+  
+  .arrow1 .point1:before {
+    top: -11px;
+    left: -11px;
+    transform:rotate(-74deg);
+    -webkit-transform:rotate(-74deg);
+    -moz-transform:rotate(-74deg);
+    -ms-transform: rotate(-74deg);
+  }
+  
+  .arrow1 .point1:after {
+    top: -20px;
+    left: 5px;
+    transform:rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    -moz-transform:rotate(12deg);
+    -ms-transform: rotate(12deg);
+  }
+  
+  
+  
+  //Fleche de la section aboutme
+  .things > .content {
+    float: left;
+    width: 50%;
+    height: 500px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .things > .content h1 {
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    height: 150px;
+    color: #89323B;
+  }
+  
+  /* Arrow */
+  .arrow {
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+    left:100%;
+    top:-20%;
+  }
+  
+  .arrow .curve {
+    border: 2px solid #BE5F4B;
+    border-color: transparent transparent transparent #BE5F4B;
+    height: 340px;
+    width: 1200px;
+    border-radius: 230px 0 0 150px;
+  }
+  
+  .arrow .point {
+    position: absolute;
+    left: 40px;
+    top: 305px;
+  }
+  
+  .arrow .point:before, .arrow .point:after {
+    border: 1px solid #BE5F4B;
+    height: 23px;
+    content: "";
+    position: absolute;
+  }
+  
+  .arrow .point:before {
+    top: -10px;
+    left: -9px;
+    transform:rotate(-74deg);
+    -webkit-transform:rotate(-74deg);
+    -moz-transform:rotate(-74deg);
+    -ms-transform: rotate(-74deg);
+  }
+  
+  .arrow .point:after {
+    top: -18px;
+    left: 5px;
+    transform:rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    -moz-transform:rotate(12deg);
+    -ms-transform: rotate(12deg);
+  }
+  
+  //fleches directionnels du HEADER
+  .arrowd{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .arrowd span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #BE5F4B;
+    border-right: 5px solid #BE5F4B;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+  }
+  .arrowd span:nth-child(2){
+    animation-delay: -0.2s;
+  }
+  .arrowd span:nth-child(3){
+    animation-delay: -0.4s;
+  }
+  @keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+  }
+  }
+  
+
