@@ -1627,16 +1627,12 @@ li{
     font-family: 'Amatic SC', cursive;
     color:white;
   }
-  #top-section-mobile img{
-    position:relative;
-    width:25%;
-    display:flex; 
-    left:20%;
+  
+  #list-icon{
+    display:flex;
+    display:inline-block;
   }
-  #top-section-mobile li{
-    display: flex;
-    display: inline-block;
-  }
+
   
   #top-section-mobile img:hover,
   #top-section-mobile img:focus {
@@ -1690,6 +1686,7 @@ li{
     position: relative;
     background-color: white;
     margin-top: 5%;
+    left:5%;
   }
   
   #about-wrapper{
@@ -1833,6 +1830,9 @@ li{
     left:10%;
   }
   //Section Projects
+  body{
+   width:auto;
+  }
   #projects-section-title{
     font-size: 1.6em;
     position: relative;
@@ -2042,13 +2042,7 @@ li{
   
   //Fleche de la section aboutme
   .things > .content {
-    float: left;
-    width: 50%;
-    height: 500px;
-    -webkit-box-sizing: border-box; 
-    -moz-box-sizing: border-box;    
-    box-sizing: border-box;
-    position: relative;
+    display:none;
   }
   
   .things > .content h1 {
@@ -2070,14 +2064,14 @@ li{
     margin: 0 auto;
     width: 100px;
     left:100%;
-    top:-20%;
+    top:-30%;
   }
   
   .arrow .curve {
     border: 2px solid #BE5F4B;
     border-color: transparent transparent transparent #BE5F4B;
     height: 340px;
-    width: 1200px;
+    width: auto;
     border-radius: 230px 0 0 150px;
   }
   
