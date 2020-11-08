@@ -33,29 +33,20 @@ const Header = () => {
             </div>
             <div id="top-section-mobile">
             <div class="container">
-                <div class="row">
+            <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h1>Aribi Rachid</h1> 
+              <h1>Aribi Rachid</h1> 
             </div>
             </div>
             </div>
             <div class="container">
-                <div class="row">
-            <div id="list-icon">
-            
             <div class="row">
+            <div id="list-icon">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                      
-                      <a className="codepenmob" href="https://codepen.io/raffa-rin" target="_blank" rel="noopener noreferrer"><img src={codemoblogo} alt="codepen-link"></img></a>
-                      
-                     
-                     
-                      <a className="githubmob" href="https://github.com/SolidarityDev" target="_blank" rel="noopener noreferrer"><img src={gitmoblogo}  alt="github-link"></img></a>
-                     
-                      
-                      <a className="linkedinmob" href="https://www.linkedin.com/in/rachid-aribi/" target="_blank" rel="noopener noreferrer"><img src={linkmoblogo} alt="linkdin-link"></img></a>
-                      </div>
-                </div>  
+              <a className="codepenmob" href="https://codepen.io/raffa-rin" target="_blank" rel="noopener noreferrer"><img src={codemoblogo} alt="codepen-link"></img></a>
+              <a className="githubmob" href="https://github.com/SolidarityDev" target="_blank" rel="noopener noreferrer"><img src={gitmoblogo}  alt="github-link"></img></a>
+              <a className="linkedinmob" href="https://www.linkedin.com/in/rachid-aribi/" target="_blank" rel="noopener noreferrer"><img src={linkmoblogo} alt="linkdin-link"></img></a>
+            </div>
             </div>
           </div>
             </div>
