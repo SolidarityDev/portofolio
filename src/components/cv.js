@@ -29,7 +29,7 @@ const Cv = () => {
                     </div>
                 </div> 
             </div> 
-                <a className="block-btn" href="https://github.com/SolidarityDev/resume/blob/main/C.V.R.pdf"  add target="_blank" rel="noopener noreferrer">
+                <a className="block-btn" href="https://github.com/SolidarityDev/resume/raw/main/C.V.R.pdf"  add target="_blank" rel="noopener noreferrer">
                      <img src={Logocloud} className="cloud-logo" alt="cv-logo" /> </a>
             </div>  
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
