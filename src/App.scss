@@ -1615,11 +1615,16 @@ li{
   
   .navbar-nav{
     position: relative;
-    top:5%;
+    top:1%;
+  }
+  .navbar-nav ul{
+    position: relative;
+    left:-10%;
   }
   .nav-item {
-    font-size: 1.5em;
-    display: inline
+    position: relative;
+    font-size: 0.5em;
+    display: inline;
   }
   .nav-item a{
     display: flex;
@@ -1632,6 +1637,11 @@ li{
     display:flex;
     display:inline-block;
   }
+  #list-icon img{
+    display:flex;
+    display:inline-block;
+    width:15%;
+  }
 
   
   #top-section-mobile img:hover,
@@ -1641,8 +1651,8 @@ li{
   h1{
     position: relative;
     top:10%;
-    left: 20%;
-    font-size: 3.3em;
+    right: 35%;
+    font-size: 0.8em;
     font-family: 'Amatic SC', cursive;
   }
   

@@ -31,13 +31,13 @@ const Cv = () => {
             </div> 
                 <a className="block-btn" href="https://solidaritydev.github.io/resume/CV.R.pdf"  add target="_blank" rel="noopener noreferrer">
                      <img src={Logocloud} className="cloud-logo" alt="cv-logo" /> </a>
-                </div>  
+            </div>  
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <img className="gif-image" loading="lazy" src="https://cms.momkai.com/dynamic/illustrations/momkai_home_sittingonpencil_large.gif" alt="gif-cv"></img>
-            </div>
+                    <img className="gif-image" loading="lazy" src="https://cms.momkai.com/dynamic/illustrations/momkai_home_sittingonpencil_large.gif" alt="gif-cv"></img>
+                </div>
             
+             </div>
         </div>
-    </div>
     </div>
         <section>
             <div id="languages-logo">
