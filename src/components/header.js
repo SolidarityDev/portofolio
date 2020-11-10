@@ -28,7 +28,7 @@ const Header = () => {
                <ul>
                 <Link to="#Aboutme"><li className="nav-item active"> <a href="#Aboutme">About Me</a></li> </Link>
                 <Link to="#Projects"><li className="nav-item nav-link"> <a href="#Projects">My Work</a></li></Link>
-                <li className="nav-item nav-link"> <a href="https://solidaritydev.github.io/resume/C.V.R.pdf" add target="_blank" rel="noopener noreferrer">C.V</a></li>
+                <li className="nav-item nav-link"> <a href="https://solidaritydev.github.io/resume/CV.R-A.pdf" add target="_blank" rel="noopener noreferrer">C.V</a></li>
                 </ul>
             </div>
             <div id="top-section-mobile">
@@ -72,7 +72,7 @@ const Header = () => {
                <ul>
                 <Link to="#Aboutme"><li className="nav-item active"> <a href="#Aboutme">About Me</a></li> </Link>
                 <Link to="#Projects"><li className="nav-item nav-link"> <a href="#Projects">My Work</a></li></Link>
-                <li className="nav-item nav-link"> <a href="https://solidaritydev.github.io/resume/C.V.R.pdf" add target="_blank" rel="noopener noreferrer">C.V</a></li>
+                <li className="nav-item nav-link"> <a href="https://solidaritydev.github.io/resume/CV.R-A.pdf" add target="_blank" rel="noopener noreferrer">C.V</a></li>
                 </ul>
             </div>
           <div id="top-section">
