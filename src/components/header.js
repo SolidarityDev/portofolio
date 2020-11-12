@@ -7,8 +7,8 @@ import codelogo from '../icons/peni1.svg';
 import gitlogo from '../icons/giti.svg';
 import linkdlogo from '../icons/linkme.svg';
 import codemoblogo from '../icons/penipeni.svg';
-import gitmoblogo from '../icons/gitgitgit.svg';
-import linkmoblogo from '../icons/linked.svg';
+import gitmoblogo from '../icons/gi.svg';
+import linkmoblogo from '../icons/innni.svg';
 
 
 const Header = () => {
