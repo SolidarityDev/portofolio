@@ -7,7 +7,6 @@ import REACTLOGO from "../icons/reactjs.svg"
 import NODELOGO from "../icons/nodejs.svg"
 import RESUMELOGO from "../icons/resume.svg"
 
-
 const Cv = () => {
 
     return (
