@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
-import BackGround from '../images/portofoliowp2.jpg'
+import BackGround from '../images/backfinal.jpg'
 import SMART1 from '../images/smart1.jpg'
 import codelogo from '../icons/peni1.svg';
 import gitlogo from '../icons/giti.svg';
