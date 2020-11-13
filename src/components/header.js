@@ -32,17 +32,17 @@ const Header = () => {
                 </ul>
             </div>
             <div id="top-section-mobile">
-            <div class="container">
-            <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div className="container">
+            <div className="row">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <h1>Aribi Rachid</h1> 
             </div>
             </div>
             </div>
-            <div class="container">
-            <div class="row">
+            <div className="container">
+            <div className="row">
             <div id="list-icon">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <a className="codepenmob" href="https://codepen.io/raffa-rin" target="_blank" rel="noopener noreferrer"><img src={codemoblogo} alt="codepen-link"></img></a>
               <a className="githubmob" href="https://github.com/SolidarityDev" target="_blank" rel="noopener noreferrer"><img src={gitmoblogo}  alt="github-link"></img></a>
               <a className="linkedinmob" href="https://www.linkedin.com/in/rachid-aribi/" target="_blank" rel="noopener noreferrer"><img src={linkmoblogo} alt="linkdin-link"></img></a>
@@ -76,14 +76,14 @@ const Header = () => {
                 </ul>
             </div>
           <div id="top-section">
-            <div class="container">
-                <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div className="container">
+                <div className="row">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h1>Aribi Rachid</h1> 
             </div>
             </div>
-            <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div className="row">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <ul id="list-inline social-buttons animated fadeIn">
                       
                       <li><a className="codepen" href="https://codepen.io/raffa-rin" target="_blank" rel="noopener noreferrer"><img src={codelogo} alt="codepen-link"></img></a></li>
@@ -102,7 +102,7 @@ const Header = () => {
                 <span></span>
                 <span></span>
             
-                </div>
+            </div>
             </div>
 </div>
           </div>

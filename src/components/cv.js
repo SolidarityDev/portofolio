@@ -13,12 +13,12 @@ const Cv = () => {
       <div>
             <div className="cv-section">
             <u><span className="text">MY RESUME</span></u><br></br> 
-            <div class="container">
-                <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div className="container">
+                <div className="row">
+                <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
             <img className="logo-resume" src={RESUMELOGO} alt="node-logo"></img>
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 <div className="things1">
                 <div className="content1">
                     <div className="arrow1">
@@ -31,7 +31,7 @@ const Cv = () => {
                 <a className="block-btn" href="https://solidaritydev.github.io/resume/CV.R-A.pdf" add target="_blank" rel="noopener noreferrer">
                      <img src={Logocloud} className="cloud-logo" alt="cv-logo" /> </a>
             </div>  
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <img className="gif-image" loading="lazy" src="https://cms.momkai.com/dynamic/illustrations/momkai_home_sittingonpencil_large.gif" alt="gif-cv"></img>
                 </div>
             
