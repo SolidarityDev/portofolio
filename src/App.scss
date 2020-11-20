@@ -156,7 +156,7 @@
   /* Curiculum Vitae section*/
   .cv-section{
   position: relative;
-  margin-top:15%;
+  margin-top:1%;
   background-color: #D5D5D5;
   overflow: hidden;
   
@@ -529,6 +529,42 @@
     animation-delay: -0.2s;
   }
   .arrowd span:nth-child(3){
+    animation-delay: -0.4s;
+  }
+  @keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+  }
+  //fleches directionnels du ABOUTME
+  .arrowd2{
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .arrowd2 span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #BE5F4B;
+    border-right: 5px solid #BE5F4B;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+  }
+  .arrowd2 span:nth-child(2){
+    animation-delay: -0.2s;
+  }
+  .arrowd2 span:nth-child(3){
     animation-delay: -0.4s;
   }
   @keyframes animate {
@@ -1091,6 +1127,42 @@ li{
       transform: rotate(45deg) translate(20px,20px);
   }
 }
+//fleches directionnels du ABOUTME
+.arrowd2{
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.arrowd2 span{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #BE5F4B;
+  border-right: 5px solid #BE5F4B;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.arrowd2 span:nth-child(2){
+  animation-delay: -0.2s;
+}
+.arrowd2 span:nth-child(3){
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0%{
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+  }
+}
 }
 
 @media screen and (min-width: 1100px) and (max-width: 1199px){
@@ -1624,6 +1696,42 @@ li{
     animation-delay: -0.2s;
   }
   .arrowd span:nth-child(3){
+    animation-delay: -0.4s;
+  }
+  @keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+  }
+  //fleches directionnels du ABOUTME
+  .arrowd2{
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .arrowd2 span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #BE5F4B;
+    border-right: 5px solid #BE5F4B;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+  }
+  .arrowd2 span:nth-child(2){
+    animation-delay: -0.2s;
+  }
+  .arrowd2 span:nth-child(3){
     animation-delay: -0.4s;
   }
   @keyframes animate {
@@ -2188,13 +2296,43 @@ li{
         transform: rotate(45deg) translate(20px,20px);
     }
   }
+  //fleches directionnels du ABOUTME
+  .arrowd2{
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
-
-
-
-
-
-
+  .arrowd2 span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #BE5F4B;
+    border-right: 5px solid #BE5F4B;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+  }
+  .arrowd2 span:nth-child(2){
+    animation-delay: -0.2s;
+  }
+  .arrowd2 span:nth-child(3){
+    animation-delay: -0.4s;
+  }
+  @keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+  }
+  }
 @media screen and (min-width: 768px) and (max-width: 999px){
   .App {
     text-align: center;
@@ -2737,6 +2875,42 @@ li{
         transform: rotate(45deg) translate(20px,20px);
     }
   }
+  //fleches directionnels du ABOUTME
+  .arrowd2{
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .arrowd2 span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #BE5F4B;
+    border-right: 5px solid #BE5F4B;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+  }
+  .arrowd2 span:nth-child(2){
+    animation-delay: -0.2s;
+  }
+  .arrowd2 span:nth-child(3){
+    animation-delay: -0.4s;
+  }
+  @keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 767px){
   .App {
@@ -2819,7 +2993,7 @@ li{
   .section-aboutme{
     position: relative;
     background-color: white;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-bottom:30%;
   }
   
@@ -2843,7 +3017,7 @@ li{
     width:40%;
     left:10%;
     font-family: 'Amatic SC', cursive;
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
   
   #divided-wrapper{
@@ -2855,12 +3029,12 @@ li{
   .img-wrapper{
     border-radius: 50%;
     position:relative;
-    left:90%;
-    width:90%;
-    top:50%;
+    left:60%;
+    width:140%;
+    top:30%;
   }
   .text-wrapper{
-    font-size: 1.0em;
+    font-size: 1.2em;
     font-family: 'Itim', cursive;
     font-style: italic;
     width:200%;
@@ -2894,7 +3068,8 @@ li{
   /* Curiculum Vitae section*/
   .cv-section{
   position: relative;
-  margin-top:10%;
+  margin-top:60%;
+  margin-bottom:15%;
   background-color: #D5D5D5;
   overflow: hidden;
   width:auto;
@@ -3277,7 +3452,42 @@ li{
         transform: rotate(45deg) translate(20px,20px);
     }
   }
-
+//fleches directionnels du ABOUTME
+.arrowd2{
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.arrowd2 span{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #BE5F4B;
+  border-right: 5px solid #BE5F4B;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.arrowd2 span:nth-child(2){
+  animation-delay: -0.2s;
+}
+.arrowd2 span:nth-child(3){
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0%{
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+  }
+}
 }
 
 @media screen and (min-width : 320px) and (max-width : 600px) {
@@ -3821,6 +4031,42 @@ li{
     animation-delay: -0.2s;
   }
   .arrowd span:nth-child(3){
+    animation-delay: -0.4s;
+  }
+  @keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+  }
+  //fleches directionnels du ABOUTME
+  .arrowd2{
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .arrowd2 span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #BE5F4B;
+    border-right: 5px solid #BE5F4B;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+  }
+  .arrowd2 span:nth-child(2){
+    animation-delay: -0.2s;
+  }
+  .arrowd2 span:nth-child(3){
     animation-delay: -0.4s;
   }
   @keyframes animate {

@@ -2,6 +2,7 @@ import React from 'react'
 import ImageShot from "../images/imageshot.png"
 
 const Aboutme = () => {
+  const scrollDown = () => window.scrollTo({ top: 2120, behavior: "smooth" });
     return (
         <div>
             <div id="Aboutme">
@@ -40,8 +41,15 @@ For the future I want to carry out various associative projects which are close 
             </div>
             </div>
             </div>
+            <div className="arrowd2" onClick={scrollDown}>
+                <span></span>
+                <span></span>
+                <span></span>
+            
+            </div>
           </div>
             </div> 
+            
             </div>
             </div>
     )
