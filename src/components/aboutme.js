@@ -2,7 +2,7 @@ import React from 'react'
 import ImageShot from "../images/imageshot.png"
 
 const Aboutme = () => {
-  const scrollDown = () => window.scrollTo({ top: 2120, behavior: "smooth" });
+  const scrollDown = () => window.scrollTo({ top:2020, behavior: "smooth" });
     return (
         <div>
             <div id="Aboutme">
