@@ -12,7 +12,7 @@ import linkmoblogo from '../icons/innni.svg';
 
 
 const Header = () => {
-  const scrollDown = () => window.scrollTo({ top: 1120, behavior: "smooth" });
+  const scrollDown = () => window.scrollTo({ top: 1000, behavior: "smooth" });
     return (
       <div>
         <div id="top-header">
